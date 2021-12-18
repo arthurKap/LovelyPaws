@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Coaster";
+  src: url("../fonts/Сoaster.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dopestyle";
+  src: url("../fonts/Dopestyle.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Coaster", sans-serif;
+}
+
+.container {
+  max-width: 320px;
+  width: 95%;
+  margin: auto;
+}
+.section-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-family: 'Dopestyle', sans-serif;
+  font-size: 48px;
+  color: red;
+}
+.section-subtitle {
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: red;
+  font-size: 30px;
+}
+.links-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.links {
+  margin-top: 10px;
+}
+.text {
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 19px;
+}
+.item-image {
+  max-width: 25px;
+}
+.item-link {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+  padding: 8px 20px 8px 20px;
+  display: inline-block;
+}
+.item-link:hover {
+  background-color: #ffae00;
+  color: white;
+  border-radius: 25px;
+}
+.puppy-text {
+  display: block;
+  max-width: 200px;
+  font-size: 14px;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.puppu-block {
+  position: relative;
+}
+.puppy-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateX(-8px);
+  max-width: 320px;
+}
