@@ -31,7 +31,8 @@ body {
   padding-top: 60px;
   padding-bottom: 20px;
   font-family: 'Dopestyle', sans-serif;
-  font-size: 155px;
+  /* font-size: 155px; */
+  font-size: calc(24px + 131 * (100vw / 1980));
   font-weight: 400;
   color: red;
 }
@@ -43,7 +44,8 @@ body {
   padding-bottom: 20px;
   color: white;
   background-color: red;
-  font-size: 100px;
+  /* font-size: 100px; */
+  font-size: calc(12px + 88 * (100vw / 1980));
 }
 .links-block {
   display: flex;
@@ -57,10 +59,12 @@ body {
   text-align: center;
   display: block;
   padding-top: 10px;
-  font-size: 50px;
+  font-size: calc(13px + 37 * (100vw / 1980));
+  /* font-size: 50px; */
 }
 .item-image {
-  max-width: 80px;
+  /* max-width: 80px; */
+  max-width: calc(25px + 55 * (100vw / 1980));
   margin-right: 15px;
 }
 .imageSvg {
@@ -71,7 +75,8 @@ body {
   margin-bottom: 32px;
 }
 .item-link {
-  font-size: 110px;
+  font-size: calc(34px + 76 * (100vw / 1980));
+  /* font-size: 110px; */
   text-decoration: none;
   color: black;
   padding: 8px 20px 8px 20px;
@@ -88,8 +93,10 @@ body {
 .puppy-text {
   display: flex;
   text-align: start;
-  max-width: 408px;
-  font-size: 32px;
+  /* max-width: 408px; */
+  max-width: calc(200px + 208 * (100vw / 1980));
+  /* font-size: 32px; */
+  font-size: calc(15px + 17 * (100vw / 1980));
   margin-left: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -97,5 +104,6 @@ body {
 .puppу-block {
   text-align: center;
 }
-/* .puppy-image {
-} */
+.puppy-image {
+  max-width: 312px;
+} 
