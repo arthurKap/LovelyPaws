@@ -21,8 +21,8 @@ body {
 }
 
 .container {
-  max-width: 1177px;
-  width: 95%;
+  max-width: 804px;
+  width: 98%;
   margin: auto;
 }
 .section-title {
@@ -32,7 +32,7 @@ body {
   padding-bottom: 20px;
   font-family: 'Dopestyle', sans-serif;
   /* font-size: 155px; */
-  font-size: calc(24px + 131 * (100vw / 1980));
+  font-size: calc(24px + 131 * (100vw / 828));
   font-weight: 400;
   color: red;
 }
@@ -45,7 +45,7 @@ body {
   color: white;
   background-color: red;
   /* font-size: 100px; */
-  font-size: calc(12px + 88 * (100vw / 1980));
+  font-size: calc(12px + 88 * (100vw / 828));
 }
 .links-block {
   display: flex;
@@ -59,12 +59,12 @@ body {
   text-align: center;
   display: block;
   padding-top: 10px;
-  font-size: calc(13px + 37 * (100vw / 1980));
+  font-size: calc(13px + 37 * (100vw / 828));
   /* font-size: 50px; */
 }
 .item-image {
   /* max-width: 80px; */
-  max-width: calc(25px + 55 * (100vw / 1980));
+  max-width: calc(25px + 55 * (100vw / 828));
   margin-right: 15px;
 }
 .imageSvg {
@@ -75,7 +75,7 @@ body {
   margin-bottom: 32px;
 }
 .item-link {
-  font-size: calc(34px + 76 * (100vw / 1980));
+  font-size: calc(34px + 76 * (100vw / 828));
   /* font-size: 110px; */
   text-decoration: none;
   color: black;
@@ -94,9 +94,9 @@ body {
   display: flex;
   text-align: start;
   /* max-width: 408px; */
-  max-width: calc(200px + 208 * (100vw / 1980));
+  max-width: calc(200px + 208 * (100vw / 828));
   /* font-size: 32px; */
-  font-size: calc(15px + 17 * (100vw / 1980));
+  font-size: calc(15px + 17 * (100vw / 828));
   margin-left: auto;
   padding-top: 20px;
   padding-bottom: 20px;
