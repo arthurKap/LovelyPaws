@@ -26,13 +26,13 @@ body {
   margin: auto;
 }
 .section-title {
+  display: block;
   text-align: center;
   margin: 0;
   padding-top: 60px;
   padding-bottom: 20px;
   font-family: 'Dopestyle', sans-serif;
   font-size: 155px;
-  /* font-size: calc(24px + 131 * (100vw / 1980)); */
   font-weight: 400; 
   color: red;
 }
@@ -45,7 +45,6 @@ body {
   color: white;
   background-color: red;
   font-size: 100px;
-  /* font-size: calc(12px + 88 * (100vw / 1980)); */
 }
 .links-block {
   display: flex;
@@ -59,12 +58,10 @@ body {
   text-align: center;
   display: block;
   padding-top: 10px;
-  /* font-size: calc(13px + 37 * (100vw / 1980)); */
   font-size: 50px;
 }
 .item-image {
   max-width: 80px;
-  /* max-width: calc(25px + 55 * (100vw / 1980)); */
   margin-right: 15px;
 }
 .imageSvg {
@@ -75,7 +72,6 @@ body {
   margin-bottom: 32px;
 }
 .item-link {
-  /* font-size: calc(34px + 76 * (100vw / 1980)); */
   font-size: 110px;
   text-decoration: none;
   color: black;
@@ -88,9 +84,8 @@ body {
   display: flex;
   text-align: start;
   max-width: 408px;
-  /* max-width: calc(200px + 208 * (100vw / 828)); */
   font-size: 32px;
-  /* font-size: calc(15px + 17 * (100vw / 828)); */
+
   margin-left: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -99,25 +94,32 @@ body {
   text-align: center;
 }
 .puppy-image {
-  /* max-width: 312px; */
   object-fit: cover;
 }
 @media (max-width: 800px) {
   .section-title {
     font-size: 15vw;
+    padding-bottom: 1vw;
   }
   .section-subtitle {
     font-size: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
   .text {
     font-size: 6vw;
+    padding-top: 1vw;
+  }
+  .links-item {
+    margin-bottom: 1.7vw;
   }
   .item-link {
     font-size: 10vw;
   }
   .item-image {
-    max-width: 7vw;
+    max-width: 8.5vw;
     object-fit: cover;
+    margin-right: 1vw;
   }
   .puppy-text {
     font-size: 4vw;
@@ -128,4 +130,3 @@ body {
     object-fit: cover;
   }
 }
-  
