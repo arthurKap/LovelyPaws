@@ -99,7 +99,7 @@ body {
   text-align: center;
 }
 .puppy-image {
-  max-width: 312px;
+  /* max-width: 312px; */
   object-fit: cover;
 }
 @media (max-width: 800px) {
@@ -124,7 +124,7 @@ body {
     max-width: 51vw;
   }
   .puppy-image {
-    /* max-width: 312px; */
+    max-width: 300px;
     object-fit: cover;
   }
 }
